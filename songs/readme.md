@@ -7,4 +7,4 @@ How to add in more songs:
 2. Create a split file called `Cerato.wav.txt` (or the equivalent name + `.txt`). In this you should add the 'split points' in the form `3.2,21.3` This will start the main edit at `3.2` seconds and end it at `21.3`. The remaining part of the song will be used as for the hook/outro
 
 
-These copyright free songs can be found [here](https://www.youtube.com/watch?v=6g-Ot_kwutA)
+These copyright free songs can be found [here](https://www.youtube.com/watch?v=6g-Ot_kwutA) and [here](https://youtu.be/1Lz5aXJfywg?si=ZxD73yziqzFnCtXQ)
