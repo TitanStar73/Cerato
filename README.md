@@ -1,6 +1,6 @@
 # Cerato
 
-A python based comprehensive video editing suite. This open-source project aims to be an alternative to extremely expensive proprietary software
+A python based comprehensive video editing suite. This open-source project aims to be an alternative to extremely expensive proprietary software.
 
 # Installation
 
@@ -13,12 +13,12 @@ A python based comprehensive video editing suite. This open-source project aims 
 
 In the `Cerato/` directory run `python editor.py` to get started!
 
+<br><br>
+Repo under construction...
+
 # Features
 
 # Customization
-
-
-Repo under construction...
 
 
 [Transition reference](https://drive.google.com/file/d/1hlofed54u0LU9C0qMaf7ED0GpAEwp8p1/view?usp=sharing)
