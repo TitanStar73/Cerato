@@ -1,13 +1,17 @@
 # Cerato
 
+A python based comprehensive video editing suite. This open-source project aims to be an alternative to extremely expensive proprietary software
+
 # Installation
 
 1. Clone this repo
 2. Move into the `Cerato/` directory
 3. Run `pip install requirements.txt`
-4. You are all setup! Run `python editor.py` to get started!
+4. You are all setup! 
 
 # Usage
+
+In the `Cerato/` directory run `python editor.py` to get started!
 
 # Features
 
