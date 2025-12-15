@@ -1684,10 +1684,10 @@ else:
                 if was_just_snapped:
                     was_just_snapped = False
                     #Now need to check if the current inward transition is compatible
-                    #rb_path1 = linear_sequence2[-2][7].replace('/RAW/','/RB/').replace(".mp4", "_front.png")
+                    rb_path1 = linear_sequence2[-2][7].replace('/RAW/','/RB/').replace(".mp4", "_front.png")
                     rb_path2 = linear_sequence2[-2][7].replace('/RAW/','/RB/').replace(".mp4", "_back.png")
                     
-                    if not (TRANSITIONS[linear_sequence2[-1][4]]['requires_rb_in'] or TRANSITIONS[linear_sequence2[-1][4]]['requires_rb']) or os.path.exists(rb_path2):
+                    if not (TRANSITIONS[linear_sequence2[-1][4]]['requires_rb_in'] or TRANSITIONS[linear_sequence2[-1][4]]['requires_rb']) or (os.path.exists(rb_path2) and os.path.exists(rb_path1)):
                         linear_sequence2[-2][5] = linear_sequence2[-1][4] #It is compatible and now set up
                     else: #Incompatible
                         print(f"Snapping video {linear_sequence2[-2][7]} led to incompatible transition. Attempting to resolve...")
@@ -2180,5 +2180,6 @@ for key in video_cache.keys():
 
 #time.sleep(2)
 #os.startfile(f"{PROJECT_FOLDER}/{PROJECT_NAME}/{PROJECT_NAME}_loop_preview.mp4")
+
 
 print("TIP: You can add outro.mp4 and watermark.png if you haven't already")
