@@ -18,7 +18,6 @@ Repo under construction...
 
 # Features
 - AI Based Upscaler (Can run on [Kaggle](https://www.kaggle.com) so you DON'T needs a powerful GPU!)
-- Youtube Downloader
 - Integrated scene pack animator (split, crop, rotate, screenshot and add in keyframes to your scenepack)
 - Smart Beat Recognition and beat sync
 - Automatic foreground background split
